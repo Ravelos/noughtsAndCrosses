@@ -55,7 +55,7 @@ function randomPlayer() {
     } else {
         player = "X";
         label_player.innerText = "X";
-        label_player.style.color = 'yellow';
+        label_player.style.color = 'red';
     }
 
 }
@@ -65,11 +65,11 @@ function changePlayer() {
     if (player == "0") {
         player = "X";
         label_player.innerText = "X";
-        label_player.style.color = 'Yellow';
+        label_player.style.color = 'black';
     } else {
         player = "0";
         label_player.innerText = "0";
-        label_player.style.color = 'Yellow';
+        label_player.style.color = 'red';
     }
 }
 
